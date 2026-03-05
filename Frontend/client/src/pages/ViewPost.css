@@ -1,0 +1,32 @@
+.view-post {
+  padding: 2rem;
+  max-width: 800px;
+  margin: auto;
+  background-color: #1a0a2a;
+  border-radius: 10px;
+  box-shadow: 0 0 20px #6d00ff, 0 0 40px #bb33ff;
+}
+
+.view-post h1 {
+  font-size: 2rem;
+  margin-bottom: 0.5rem;
+  color: #eeccff;
+  text-shadow: 0 0 5px #9b3eff, 0 0 10px #bb66ff;
+}
+
+.view-post h3 {
+  color: #bb66ff;
+  margin-bottom: 1rem;
+}
+
+.view-post p {
+  line-height: 1.7;
+  color: #ccc6ff;
+  margin-bottom: 1rem;
+}
+
+.view-post p::first-letter {
+  color: #ff77ff;
+  font-weight: bold;
+  font-size: 1.2rem;
+}
